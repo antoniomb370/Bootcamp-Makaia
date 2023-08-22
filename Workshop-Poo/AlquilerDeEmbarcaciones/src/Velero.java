@@ -7,8 +7,11 @@ public class Velero extends Embarcacion {
         this.cantidaDeMastiles = cantidaDeMastiles;
     }
 
-    public boolean evaluarTamanio() {
-
-        return cantidaDeMastiles > 4;
+    public String evaluarTamanio() {
+        if (cantidaDeMastiles > 4) {
+            return " Es grande";
+        } else {
+            return " Es pequeño";
+        }
     }
 }

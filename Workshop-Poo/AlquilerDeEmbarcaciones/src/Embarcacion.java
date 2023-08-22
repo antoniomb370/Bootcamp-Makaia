@@ -4,7 +4,7 @@ public class Embarcacion {
 
     private Capitan capitan;
     private double precioBase;
-    private double valorAdicional;
+    private double valorAdicional =20.000;
     private int anioFabricacion;
     private double eslara;
 
