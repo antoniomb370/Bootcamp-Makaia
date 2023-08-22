@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Workshop-Poo/AlquilerDeEmbarcaciones/AlquilerDeEmbarcaciones.iml" filepath="$PROJECT_DIR$/Workshop-Poo/AlquilerDeEmbarcaciones/AlquilerDeEmbarcaciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-Makaia.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-Makaia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicios/GestionVehiculo/GestionVehiculo.iml" filepath="$PROJECT_DIR$/Ejercicios/GestionVehiculo/GestionVehiculo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Workshop-Poo/Workshop-Poo.iml" filepath="$PROJECT_DIR$/Workshop-Poo/Workshop-Poo.iml" />
