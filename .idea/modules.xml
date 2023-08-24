@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Workshop-Poo/Workshop-Poo.iml" filepath="$PROJECT_DIR$/Workshop-Poo/Workshop-Poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicios/calculadoraNumerosRomanos/calculadoraNumerosRomanos.iml" filepath="$PROJECT_DIR$/Ejercicios/calculadoraNumerosRomanos/calculadoraNumerosRomanos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicios/introduccionAJava/introduccionAJava.iml" filepath="$PROJECT_DIR$/Ejercicios/introduccionAJava/introduccionAJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/jerarquiaAnimal/jerarquiaAnimal.iml" filepath="$PROJECT_DIR$/Ejercicios/jerarquiaAnimal/jerarquiaAnimal.iml" />
     </modules>
   </component>
 </project>

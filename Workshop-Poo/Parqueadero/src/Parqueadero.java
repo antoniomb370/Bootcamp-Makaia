@@ -1,6 +1,16 @@
+
+/**
+ * clsase parqueadero
+ * */
 public class Parqueadero {
+
+
     private Carro[][] matrizEstacionamiento;
+
+
     private int filas;
+
+
     private int columnas;
     private double tariafaPorHora;
 
@@ -11,11 +21,22 @@ public class Parqueadero {
         this.tariafaPorHora = tariafaPorHora;
     }
 
+    /***
+     *
+     * @author Antonio Marroquin
+     * @param filas
+     * @param columnas
+     * @Type boolean
+     * @
+     */
+
     public boolean parquearCarro(Carro carro, int filas, int columnas) {
         if (filas >= 0 && filas < matrizEstacionamiento.length && columnas >= 0 && columnas < matrizEstacionamiento[0].length) {
             if (matrizEstacionamiento[filas][columnas] == null) {
                 matrizEstacionamiento[filas][columnas] = carro;
                 return true;
+
+
             }
         }
         return false;
