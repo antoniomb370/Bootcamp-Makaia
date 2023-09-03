@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Taller ejercicios Patron de diseño.iml" filepath="$PROJECT_DIR$/.idea/Taller ejercicios Patron de diseño.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/VideojuegoRPG/VideojuegoRPG.iml" filepath="$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/VideojuegoRPG/VideojuegoRPG.iml" />
+    </modules>
+  </component>
+</project>
