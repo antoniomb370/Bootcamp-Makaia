@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Taller ejercicios Patron de diseño.iml" filepath="$PROJECT_DIR$/.idea/Taller ejercicios Patron de diseño.iml" />
       <module fileurl="file://$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/VideojuegoRPG/VideojuegoRPG.iml" filepath="$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/VideojuegoRPG/VideojuegoRPG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/interfazGraficadEUsuario/interfazGraficadEUsuario.iml" filepath="$PROJECT_DIR$/PATRON DE DISEÑO FACTORY/interfazGraficadEUsuario/interfazGraficadEUsuario.iml" />
     </modules>
   </component>
 </project>
