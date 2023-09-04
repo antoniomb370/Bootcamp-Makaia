@@ -25,7 +25,6 @@ public class Main {
         mago_1.mostrarInfoPersonaje();
         habilidadMago.usarHabilidad();
 
-
     }
 
 }

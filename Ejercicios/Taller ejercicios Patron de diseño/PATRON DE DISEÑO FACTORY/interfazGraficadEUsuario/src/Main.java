@@ -9,7 +9,7 @@ public class Main {
         Widget panel = fabricaWidgets.crearWidget("panel");
         Widget campoTexto = fabricaWidgets.crearWidget("campoTexto");
 
-        System.out.println("Raealizando acciones con los widgets");
+        System.out.println("Raealizando acciones con los widgets\n");
         campoTexto.click();
         campoTexto.draw();
         boton.click();
