@@ -8,5 +8,9 @@ public abstract class Personaje {
         this.nivel = nivel;
 //
     }
+    public void mostrarInfoPersonaje() {
+        System.out.println("\nNombre: " + nombre + " nivel: " + nivel);
+
+    }
 
 }
