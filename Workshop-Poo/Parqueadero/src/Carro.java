@@ -5,11 +5,16 @@ public class Carro {
     private String marca;
     private String modelo;
 
+
+
     public Carro(String placa, String marca, String modelo) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
+
     }
+    //Create a function to perform a sum
+
 
     public String getPlaca() {
         return placa;

@@ -1,0 +1,35 @@
+INSERT INTO Autor (Nombre, Nacionalidad) VALUES ('Gabriel García Márquez', 'Colombiana');
+INSERT INTO Autor (Nombre, Nacionalidad) VALUES ('J.K. Rowling', 'Británica');
+INSERT INTO Autor (Nombre, Nacionalidad) VALUES ('Haruki Murakami', 'Japonesa');
+INSERT INTO Autor (Nombre, Nacionalidad) VALUES ('Isabel Allende', 'Chilena');
+INSERT INTO Autor (Nombre, Nacionalidad) VALUES ('George Orwell', 'Británica');
+
+INSERT INTO Editor (Nombre, Ubicacion) VALUES ('Editorial Panamericana', 'Ciudad de México');
+INSERT INTO Editor (Nombre, Ubicacion) VALUES ('Penguin Random House', 'Nueva York');
+INSERT INTO Editor (Nombre, Ubicacion) VALUES ('Editorial Anagrama', 'Barcelona');
+INSERT INTO Editor (Nombre, Ubicacion) VALUES ('HarperCollins', 'Londres');
+INSERT INTO Editor (Nombre, Ubicacion) VALUES ('Editorial Santillana', 'Bogotá');
+
+INSERT INTO Libro (Titulo, ID_Autor, ID_Editor) VALUES ('Cien años de soledad', 1, 1);
+INSERT INTO Libro (Titulo, ID_Autor, ID_Editor) VALUES ('Harry Potter y la piedra filosofal', 2, 2);
+INSERT INTO Libro (Titulo, ID_Autor, ID_Editor) VALUES ('Norwegian Wood', 3, 3);
+INSERT INTO Libro (Titulo, ID_Autor, ID_Editor) VALUES ('La casa de los espíritus', 4, 4);
+INSERT INTO Libro (Titulo, ID_Autor, ID_Editor) VALUES ('1984', 5, 5);
+
+INSERT INTO Cliente (Nombre, direccion) VALUES ('Juan Pérez', 'Calle 123, Ciudad A');
+INSERT INTO Cliente (Nombre, direccion) VALUES ('María González', 'Avenida XYZ, Ciudad B');
+INSERT INTO Cliente (Nombre, direccion) VALUES ('Pedro Rodríguez', 'Calle ABC, Ciudad C');
+INSERT INTO Cliente (Nombre, direccion) VALUES ('Laura Fernández', 'Avenida 456, Ciudad D');
+INSERT INTO Cliente (Nombre, direccion) VALUES ('Carlos López', 'Calle MNO, Ciudad E');
+
+INSERT INTO Prestamo (Fecha_Prestamo, ID_Cliente) VALUES ('2023-09-01', 1);
+INSERT INTO Prestamo (Fecha_Prestamo, ID_Cliente) VALUES ('2023-09-02', 2);
+INSERT INTO Prestamo (Fecha_Prestamo, ID_Cliente) VALUES ('2023-09-03', 3);
+INSERT INTO Prestamo (Fecha_Prestamo, ID_Cliente) VALUES ('2023-09-04', 4);
+INSERT INTO Prestamo (Fecha_Prestamo, ID_Cliente) VALUES ('2023-09-05', 5);
+
+INSERT INTO Libro_Prestamo (ID_Libro, ID_Prestamo) VALUES (1, 1);
+INSERT INTO Libro_Prestamo (ID_Libro, ID_Prestamo) VALUES (2, 2);
+INSERT INTO Libro_Prestamo (ID_Libro, ID_Prestamo) VALUES (3, 3);
+INSERT INTO Libro_Prestamo (ID_Libro, ID_Prestamo) VALUES (4, 4);
+INSERT INTO Libro_Prestamo (ID_Libro, ID_Prestamo) VALUES (5, 5);
